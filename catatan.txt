@@ -1,0 +1,5 @@
+1. Pertanyaan: Berapa putaran, dan keluarga mana saja yang menerima kabar dari satu pengirim awal? Siapa yang tidak menerima, dan mengapa?
+2. Titik: satu keluarga (16 titik).
+3. Sisi: hubungan pernikahan antar keluarga (layer 1, 20 sisi). Layer 2 (bisnis) tidak dipakai.
+4. Jenis relasi: timbal balik, jadi graf tak berarah.
+5. Aturan validasi: penerima putaran berikutnya harus terhubung dari penerima putaran sebelumnya, dan tidak ada titik dihitung dua kali.
